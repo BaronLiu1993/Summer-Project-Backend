@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "noUnusedLocals": false, // Disable error reporting for unused local variables
+    "noUnusedParameters": false, // Disable error reporting for unused parameters
+    "strict": true, // Optional: enables additional strict type-checking options
+    "allowJs": true, // Optional: allows JavaScript files to be included in the compilation
+    "checkJs": false // Optional: disables checking of JavaScript files
+  },
+  "include": ["src/**/*"], // Include all files in the src directory
+  "exclude": ["node_modules"], // Exclude the node_modules directory
+  "references": [
+    {
+      "path": "./tsconfig.app.json"
+    },
+    {
+      "path": "./tsconfig.node.json"
+    }
+  ]
+}
